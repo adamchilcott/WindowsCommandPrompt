@@ -1,0 +1,41 @@
+;===========================
+;= My Command Prompt Aliases
+;===========================
+
+;== Paths
+desktop=%SYSTEMROOT%\explorer.exe Desktop
+
+;== Profile
+reload=%USERPROFILE%\Documents\WindowsCommandPrompt\myCommandProfile.cmd
+
+;== BusyBox
+ash=%SYSTEMDRIVE%\DH77EB\Binaries\busybox.exe ash
+bash=%SYSTEMDRIVE%\DH77EB\Binaries\busybox.exe bash
+
+;== Application
+ipscan=%SYSTEMDRIVE%\DH77EB\Binaries\advanced-port-scanner.exe
+copier=%SYSTEMDRIVE%\DH77EB\Binaries\unstopcpy.exe
+usb=%SYSTEMDRIVE%\DH77EB\Binaries\rufus.exe
+ghostscript=%PROGRAMFILES%\gs9.53.3\bin\gswin64.exe -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=gsCombined.pdf -dBATCH
+
+;== Remote
+rdp=%SYSTEMROOT%\System32\mstsc.exe /public /v:$1 /prompt /f
+externalsupport=%SYSTEMROOT%\System32\quickassist.exe
+
+;== File
+listbin=start shell:RecycleBinFolder
+
+;== Hardware
+restart=shutdown /r /f /t 0
+
+;=============
+;= START NOTES
+;=============
+
+;= References:
+;= <https://stackoverflow.com/questions/20530996/aliases-in-windows-command-prompt>
+;= <https://superuser.com/questions/560519/how-to-set-an-alias-in-windows-command-line>
+
+;===========
+;= END NOTES
+;===========
