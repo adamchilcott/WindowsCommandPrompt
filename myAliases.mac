@@ -7,6 +7,7 @@ desktop=%SYSTEMROOT%\explorer.exe Desktop
 
 ;== Profile
 reload=%USERPROFILE%\Documents\WindowsCommandPrompt\myCommandProfile.cmd
+listpath=echo %PATH%
 
 ;== BusyBox
 ash=%SYSTEMDRIVE%\DH77EB\Binaries\busybox.exe ash
