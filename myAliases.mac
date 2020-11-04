@@ -10,7 +10,7 @@ reload=%USERPROFILE%\Documents\WindowsCommandPrompt\myCommandProfile.cmd
 listpath=echo %PATH%
 
 ;== BusyBox
-ash=%SYSTEMDRIVE%\DH77EB\Binaries\busybox.exe ash
+ash=%SYSTEMDRIVE%\DH77EB\Binaries\busybox.exe ash -l
 bash=%SYSTEMDRIVE%\DH77EB\Binaries\busybox.exe bash
 
 ;== Application
